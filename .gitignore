@@ -1,4 +1,8 @@
 # My List
 PKLot/
 *.zip
-changelot.txt
+changelog.txt
+runs/
+yolo11n.pt
+yolov8n.pt
+bus.jpg

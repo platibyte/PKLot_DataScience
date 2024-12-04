@@ -9,6 +9,7 @@ conda create --name "$ENV_NAME" --yes
 
 echo "Umgebung '$ENV_NAME' wurde erfolgreich neu erstellt."
 
-conda install -n "$ENV_NAME" -c conda-forge ultralytics ipykernel tqdm pandas numpy keras-cv pillow pytorch torchvision tensorflow --yes
+# Install all packages together using conda
+conda install -n "$ENV_NAME" -c pytorch -c nvidia -c conda-forge pytorch torchvision pytorch-cuda=11.8 ultralytics ipykernel tqdm pandas numpy keras-cv pillow
 
 echo "Conda env für YOLOV8 abgeschlossen"
