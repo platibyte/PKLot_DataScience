@@ -2,7 +2,7 @@
 PKLot/
 *.zip
 changelog.txt
-runs/
+#runs/
 yolo11n.pt
 yolov8n.pt
 bus.jpg
